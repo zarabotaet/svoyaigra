@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 * {
   --primary-color: #9eb23b;
   --secondary-color: #c7d36f;
@@ -25,12 +27,9 @@ img {
 }
 
 .body {
-  font-family: "Lato", "Oswald", "Philosopher", "Pacifico", cursive;
-  font-size: 18px;
-  line-height: 24px;
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-
   background-color: #c7d36f;
 }
 
@@ -44,24 +43,6 @@ img {
   color: rgb(212, 68, 68);
 }
 
-/* .header {  
-  &__wrap {
-    padding: 40px;
-    text-align: center;
-  }
-  &__title {
-    color: rgb(202, 13, 240);
-    font-size: 90px;
-    font-family: 'Pacifico', cursive;
-    letter-spacing: 0.6em;
-    text-shadow: 3px 3px 6px rgb(48, 47, 47);
-    padding-bottom: 30px;
-    @include media-down(md) { 
-      letter-spacing: 0.4em;
-      font-size: 70px;
-    }
-  }
-} */
 
 .m-main__wrap {
   height: 100vh;
