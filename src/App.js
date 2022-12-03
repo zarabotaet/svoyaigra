@@ -1,6 +1,6 @@
-import { TableHead } from "./table-head/table-head";
+import { QuestionsHead } from "./questions-head/questions-head";
 
-const tableHeadList = [
+const QuestionsHeadConfig = [
   "Цвета",
   "Цифры",
   "Люди",
@@ -13,7 +13,7 @@ const tableHeadList = [
 export const App = () => {
   return (
     <div className="container">
-      <TableHead list={tableHeadList} />
+      <QuestionsHead list={QuestionsHeadConfig} />
 
       <div className="questions">
         <div className="questions__wrap">

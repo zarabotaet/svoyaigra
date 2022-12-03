@@ -1,6 +1,6 @@
 import "./table-head.scss";
 
-export const TableHead = ({ list }) => {
+export const QuestionsHead = ({ list }) => {
   return (
     <ul
       className="table-head"
