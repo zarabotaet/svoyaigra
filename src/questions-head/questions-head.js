@@ -1,4 +1,4 @@
-import "./table-head.scss";
+import "./questions-head.scss";
 
 export const QuestionsHead = ({ list }) => {
   return (

@@ -4,8 +4,9 @@
   &__item {
     font-size: 25px;
     font-weight: bold;
-    padding: 17px 0;
-    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     color: #f5f0f4;
     background-color: #6b5c5c;
     border: 1px solid lighten(#6b5c5c, 10%);
